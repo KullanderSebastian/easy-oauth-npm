@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "target": "es2016",
+    "target": "es6",
     "module": "commonjs",
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
@@ -9,7 +9,7 @@
     "rootDir": "./",
     "declaration": true,
     "declarationDir": "./dist/types",
-    "typeRoots": ["./typings", "./node_modules/@types"]
+    "typeRoots": ["./node_modules/@types"]
   },
   "include": ["lib/**/*.ts", "index.ts"]
 }

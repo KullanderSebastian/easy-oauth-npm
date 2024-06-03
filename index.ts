@@ -1,3 +1,2 @@
-import setupGoogleAuth from './lib/googleOAuthHelper';
-
-export default setupGoogleAuth;
+export { initializePassport } from "./lib/passport-setup";
+export { setupAuthRoutes } from "./lib/routes";
